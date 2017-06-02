@@ -89,4 +89,13 @@ class Format {
             ];
     	}
 
+        public static function custom($code=200, $msg='成功', $data=[])
+        {
+            return [
+                'code' => $code,
+                'msg' => $msg,
+                'data' => $data
+            ];
+        }
+
 }
